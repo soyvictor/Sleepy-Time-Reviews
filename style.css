@@ -1,24 +1,13 @@
 body {
   text-align: center;
-}
-
-.icon-victor {
-
-}
-
-.custom-padding {
-  float:left;
-}
-
-.main-body {
-  clear: both;
+  background-image: url(img/linen.png);
+  color: black;
 }
 
 li {
-   float: left;
    vertical-align: middle;
+   float:right;
    }
-
 
 
 ul {
@@ -39,13 +28,23 @@ li a {
     vertical-align: middle;
 }
 
-/* Change the link color to #111 (black) on hover */
-
 li a:hover {
     background-color: #111;
 }
 
-.me {
-            width: 300px;
-            height: 300px;
+h1 {
+  font-size: 27px;
+  text-align: left;
+}
+
+.main-paragraph {
+  text-align: left;
+  width: 400px;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.bear {
+  width: 400px;
+  height: 400px;
 }
